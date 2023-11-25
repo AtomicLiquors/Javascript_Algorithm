@@ -1,4 +1,5 @@
 // 달리기 경주
+// constructor 키워드로 클래스 생성
 class Node {
     constructor(name, next, prev) {
         this.name = name;
