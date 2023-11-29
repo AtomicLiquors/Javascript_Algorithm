@@ -3,7 +3,8 @@
 
 ### 확인요망
 [] 정수 최댓값
-- Math.pow(2, 53) - 1
+- Number.MAX_SAFE_INTEGER
+- 구버전 : Math.pow(2, 53) - 1
   
 [] x가 null일 경우 y 반환
 
