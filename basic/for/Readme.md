@@ -15,9 +15,9 @@ arr.forEach((element) => console.log(element));
 ```
 
 ### for...in:
-It iterates over the enumerable properties of an object.  
-It is not specific to arrays and can be used with any object.  
-It includes properties from the object's prototype chain.  
+It iterates over the **enumerable properties of an object.**  
+It is not specific to arrays and **can be used with any object.**  
+It **includes properties from the object's prototype chain.**  
 ```
 javascript
 Copy code
@@ -30,7 +30,7 @@ for (const key in obj) {
 ### for...of:
 It iterates over iterable objects (arrays, strings, maps, sets, etc.).  
 It provides a concise syntax for iterating over values rather than indices.  
-It doesn't include properties from the object's prototype chain.  
+It **doesn't include properties from the object's prototype chain.  **
 ```
 javascript
 Copy code
@@ -40,7 +40,7 @@ for (const value of arr) {
 }
 ```
 ### reduce:
-It is an array method that reduces an array to a single value.  
+It is an array method that **reduces an array to a single value.**  
 It takes a callback function that accumulates a result over each iteration.  
 It can be used to perform complex operations like summing up values, filtering, or transforming an array.  
 ```
