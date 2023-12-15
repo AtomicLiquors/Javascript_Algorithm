@@ -1,15 +1,10 @@
 ### 배열로 Map 만들기
-reduce 함수를 사용합니다.
-```
 const types = ["R", "T", "C", "F", "J", "M", "A", "N"];
+const map = new Map();
 
-const result = types.reduce((obj, key) => {
-  obj[key] = 0;
-  return obj;
-}, {});
-
-console.log(result);
-```
+types.forEach((key) => {
+  map.set(key, 0);
+});
 
 
 ### Array.prototype.map()
