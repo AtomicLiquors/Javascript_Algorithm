@@ -1,3 +1,17 @@
+### 배열로 Map 만들기
+reduce 함수를 사용합니다.
+```
+const types = ["R", "T", "C", "F", "J", "M", "A", "N"];
+
+const result = types.reduce((obj, key) => {
+  obj[key] = 0;
+  return obj;
+}, {});
+
+console.log(result);
+```
+
+
 ### Array.prototype.map()
 이건 배열로부터 Map을 생성하는 게 아니라 콜백함수를 돌려서 새로운 배열을 생성하는 것입니다. 
 
