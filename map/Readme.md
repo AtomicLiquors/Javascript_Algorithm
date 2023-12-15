@@ -1,6 +1,7 @@
 ### Array.prototype.map()
-이건 배열로부터 Map을 생성하는 게 아니라 콜백함수를 돌려서 새로운 배열을 생성하는 것입니다. */
+이건 배열로부터 Map을 생성하는 게 아니라 콜백함수를 돌려서 새로운 배열을 생성하는 것입니다. 
 
+```
 const array1 = [1, 4, 9, 16];
 
 // Pass a function to map
@@ -11,3 +12,4 @@ console.log(map1);
 
 
 // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+```
