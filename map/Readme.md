@@ -1,12 +1,15 @@
 ### 배열로 Map 만들기
+```
 const types = ["R", "T", "C", "F", "J", "M", "A", "N"];
 const map = new Map();
 
 types.forEach((key) => {
   map.set(key, 0);
 });
+```
 
 #### 배열로 Map 만들기 - split
+```
 const terms = ["A 6", "B 12", "C 3"];
 const mappedTerms = {};
 
@@ -14,6 +17,7 @@ terms.forEach(term => {
   const [key, value] = term.split(' ');
   mappedTerms[key] = parseInt(value, 10);
 });
+```
 
 ### Array.prototype.map()
 이건 배열로부터 Map을 생성하는 게 아니라 콜백함수를 돌려서 새로운 배열을 생성하는 것입니다. 
