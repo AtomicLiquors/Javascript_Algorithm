@@ -27,6 +27,24 @@ for (const key in obj) {
 }
 ```
 
+when used with array, it iterates over **the indices of the array, not the actual elements**.
+```
+[test case]
+dots = [[1, 1], [2, 1], [2, 2], [1, 2]]
+
+[code]
+function solution(dots) {
+    let result = 0;
+    for(dot in dots){
+        result = dot[0];
+    }
+    return result;
+}
+
+[result]
+3
+```
+
 ### for...of:
 It iterates over iterable objects (arrays, strings, maps, sets, etc.).  
 It provides a concise syntax for iterating over values rather than indices.  
