@@ -19,18 +19,3 @@ let rdx, rdy = 0;
 - 구버전 : Math.pow(2, 53) - 1
   
 [] x가 null일 경우 y 반환
-
-Javascript Math.min은 여러 인수를 가질 수 있다.
-```
-console.log(Math.min(2, 3, 1));
-// Expected output: 1
-
-console.log(Math.min(-2, -3, -1));
-// Expected output: -3
-
-const array1 = [2, 3, 1];
-
-console.log(Math.min(...array1));
-// Expected output: 1
-
-```
