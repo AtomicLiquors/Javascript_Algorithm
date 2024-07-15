@@ -1,3 +1,12 @@
+### 지정된 엔트리로 Map 만들기
+```javascript
+const morseMap = new Map([
+    [key1, value1],
+    [key2, value2],
+    [key3, value3],
+]);
+```
+
 ### 배열로 Map 만들기
 ```
 const types = ["R", "T", "C", "F", "J", "M", "A", "N"];
@@ -19,6 +28,7 @@ terms.forEach(term => {
 });
 ```
 
+
 ### Array.prototype.map()
 이건 배열로부터 Map을 생성하는 게 아니라 콜백함수를 돌려서 새로운 배열을 생성하는 것입니다. 
 
@@ -33,4 +43,22 @@ console.log(map1);
 
 
 // https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+```
+
+
+### 객체로 Map 만들기
+```javascript
+// Step 1: Define the object
+const morse = { 
+    '.-':'a','-...':'b','-.-.':'c','-..':'d','.':'e','..-.':'f',
+    ...
+};
+
+// Step 2: Convert the object to an array of key-value pairs
+const morseEntries = Object.entries(morse);
+
+// Step 3: Initialize the Map using the array
+const morseMap = new Map(morseEntries);
+
+console.log(morseMap);
 ```
