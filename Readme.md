@@ -33,6 +33,8 @@ stringifiedNumbers.filter(string => isPrime(Number(string)).length
 stringifiedNumbers.filter(string => isPrime(+string)).length
 ```
 
+- ['0보다 크다'가 조건이면 부등호는 필요하지 않다.](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/Mathematics/programmers_120815.js)
+
 Javascript Math.min은 여러 인수를 가질 수 있다.
 ```javascript
 console.log(Math.min(2, 3, 1));
