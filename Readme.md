@@ -16,6 +16,9 @@ const cvtInputToNumber = fs.readFileSync(0, 'utf8').split('\n');
 console.log(Number(cvtInputToNumber[0]));
 ```
 
+**문자열에서 숫자 찾기**  
+정규 표현식 사용
+
 **숫자 배열로 변환**
 ```javascript
 const arr = input[1].split(' ').filter(s => s !== '').map(Number);
