@@ -98,3 +98,6 @@ this.id = id.match(/[a-z0-9-_.]/g).join("");
 
 ### 어렵게 풀 거 없어
 - [평행](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/programmers_120875.js)
+
+### Map
+[Map의 대안 + Map의 각종 선언 방식](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/map/Readme.md)
