@@ -67,6 +67,7 @@ value += target ^ 1;
 - 콜백 함수에 세미콜론 넣는 실수.
   
 ### 정렬
+sort는 기본적으로 문자열 정렬이다. // array > sort > 42576
 - [.sort()로 숫자 정렬](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/javascript/sort/Programmers_42576.js)
 - [두 개의 정렬 조건식](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/javascript/sort/programmers_120880.js)
 - [... 연산자로 문자열 -> 배열 만들기](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/javascript/string/Programmers_120911.js)
@@ -86,16 +87,7 @@ value += target ^ 1;
   [[7],[10,0],[18,1,0,null,null,null,null,null,null,null,null,1],[20,8,4,0,null,null,null,null,null,null,null,8,null,null,null,null,null,null,null,null,null,4],[24,13,6,6,0,null,null,null,null,null,null,13,null,null,null,null,null,null,null,null,null,6,null,null,null,null,null,null,null,null,null,6]]
   ```
 ### 정규식
-- .match()에 정규식 넣을 때는 쌍따옴표를 쓰지 않는다.
-```javascript
-// (x) : .match()가 null을 반환한다.
-this.id = id.match("/[a-z0-9-_.]/g").join("");
-// (o)
-this.id = id.match(/[a-z0-9-_.]/g).join("");
-```
-
-- 문자열 끝을 나타내는 $ 기호 활용하기
-  - [신규 아이디 추천](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/javascript/regex/2021_KAKAO_BLIND_RECRUIT_LV1.js)
+링크 추가바람
  
 ### 누적합
 - [2차원 배열의 특정 범위 값 채우기](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/javascript/prefix/2D/Programmers_92344.js)
@@ -106,3 +98,6 @@ this.id = id.match(/[a-z0-9-_.]/g).join("");
 
 ### Map
 [Map의 대안 + Map의 각종 선언 방식](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/map/Readme.md)
+
+### 수식 문자열 처리하기
+Mathematics > ParsingExpression
