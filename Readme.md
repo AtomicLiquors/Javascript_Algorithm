@@ -5,8 +5,7 @@ forEach, map, filter, reduce 등등
 성능이나 유지보수성 면에서 권장할 코드가 아니다.
 
 
-### 입력받기
-https://leehyungi0622.github.io/2021/03/24/202103/210324-algorithm_javascript_input/
+### [입력받기](https://leehyungi0622.github.io/2021/03/24/202103/210324-algorithm_javascript_input/)
 ```javascript
 const fs = require('fs');
 const inputWithNoEncoding = fs.readFileSync(0).toString().split('\n');
@@ -93,3 +92,6 @@ this.id = id.match(/[a-z0-9-_.]/g).join("");
 ### 누적합
 - [2차원 배열의 특정 범위 값 채우기](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/javascript/prefix/2D/Programmers_92344.js)
   - [해설](https://kimjingo.tistory.com/155)
+
+### 어렵게 풀 거 없어
+- [평행](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/programmers_120875.js)
