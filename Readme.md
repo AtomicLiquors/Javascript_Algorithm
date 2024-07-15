@@ -5,7 +5,8 @@ forEach, map, filter, reduce 등등
 성능이나 유지보수성 면에서 권장할 코드가 아니다.
 
 
-### 입력받기[참조 링크](https://leehyungi0622.github.io/2021/03/24/202103/210324-algorithm_javascript_input/)
+### 입력받기
+
 ```javascript
 const fs = require('fs');
 const inputWithNoEncoding = fs.readFileSync(0).toString().split('\n');
@@ -20,6 +21,8 @@ console.log(Number(cvtInputToNumber[0]));
 const arr = input[1].split(' ').filter(s => s !== '').map(Number);
 ```
 filter를 해 주지 않으면 ''이 배열에 포함되고 숫자 0으로 변환되는 바람에 코너케이스에 걸린다.
+
+[[참고 링크]](https://leehyungi0622.github.io/2021/03/24/202103/210324-algorithm_javascript_input/)
 
 ### Tip
 - Number()대신 +연산자 사용하기.
