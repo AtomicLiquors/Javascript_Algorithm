@@ -5,7 +5,7 @@ forEach, map, filter, reduce 등등
 성능이나 유지보수성 면에서 권장할 코드가 아니다.
 
 
-### [입력받기](https://leehyungi0622.github.io/2021/03/24/202103/210324-algorithm_javascript_input/)
+### 입력받기[참조 링크](https://leehyungi0622.github.io/2021/03/24/202103/210324-algorithm_javascript_input/)
 ```javascript
 const fs = require('fs');
 const inputWithNoEncoding = fs.readFileSync(0).toString().split('\n');
