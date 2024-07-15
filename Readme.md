@@ -50,7 +50,7 @@ console.log(Math.min(...array1));
 
 ```
 
-
+- 값이 0일 경우 다른 값 반환하기 : [[숫자 찾기]](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/string/programmers_120904.js)
 - 값이 0으로 주어질 경우 1 추가하기 : XOR 연산자 활용
 ```javascript
 // before
