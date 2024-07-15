@@ -1,3 +1,15 @@
+### Map은 객체로 대체 가능하다.
+Map은 ES6 사양해서 등장했다.
+```javascript
+const object = {
+    key: value
+}
+
+console.log(object[key]);
+```
+[Map과 객체 비교](https://kellis.tistory.com/129)
+
+  
 ### 지정된 엔트리로 Map 만들기
 ```javascript
 const morseMap = new Map([
