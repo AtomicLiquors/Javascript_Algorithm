@@ -16,9 +16,6 @@ const cvtInputToNumber = fs.readFileSync(0, 'utf8').split('\n');
 console.log(Number(cvtInputToNumber[0]));
 ```
 
-**문자열에서 숫자 찾기**  
-정규 표현식 사용
-
 **숫자 배열로 변환**
 ```javascript
 const arr = input[1].split(' ').filter(s => s !== '').map(Number);
@@ -26,6 +23,10 @@ const arr = input[1].split(' ').filter(s => s !== '').map(Number);
 filter를 해 주지 않으면 ''이 배열에 포함되고 숫자 0으로 변환되는 바람에 코너케이스에 걸린다.
 
 [[참고 링크]](https://leehyungi0622.github.io/2021/03/24/202103/210324-algorithm_javascript_input/)
+
+
+**문자열에서 숫자 찾기**  
+정규 표현식 사용
 
 ### Tip
 - Number()대신 +연산자 사용하기.
@@ -101,3 +102,11 @@ sort는 기본적으로 문자열 정렬이다. // array > sort > 42576
 
 ### 수식 문자열 처리하기
 Mathematics > ParsingExpression
+
+### ascii를 String으로
+```javascript
+// 120834
+function solution(age) {
+    return age.toString().split('').map((item) => String.fromCharCode(+item + 97)).join('');
+}
+```
