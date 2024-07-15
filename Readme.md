@@ -104,6 +104,7 @@ sort는 기본적으로 문자열 정렬이다. // array > sort > 42576
 Mathematics > ParsingExpression
 
 ### ascii를 String으로
+[확인요망](https://school.programmers.co.kr/learn/courses/30/lessons/120834/solution_groups?language=javascript)
 ```javascript
 // 120834
 function solution(age) {
