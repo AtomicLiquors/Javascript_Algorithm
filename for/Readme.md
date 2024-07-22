@@ -68,3 +68,6 @@ const arr = [1, 2, 3];
 const sum = arr.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 console.log(sum);
 ```
+
+**구조분해 할당과 for... of**
+// 181922

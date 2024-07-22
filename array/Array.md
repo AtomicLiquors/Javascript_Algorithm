@@ -1,3 +1,6 @@
+### .map()으로 인덱스 사용하기
+// 181875
+
 ```
 var arr = [1,2,3,4,5];
 ```
@@ -43,3 +46,6 @@ const arr2 = [1, 2, 3, 4, 5];
 const result2 = arr2.reduce((acc, cur, idx) => { return acc += cur; }, 10);
 console.log(result2);  // 25
 ```
+
+### filter로 idx사용하기
+// 181885

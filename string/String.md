@@ -30,3 +30,6 @@ str[10]; -> 문자열 길이를 벗어나면 "undefined"를 반환한다.
 .substring(pos1, pos2);
 .substr(pos, length);
 ```
+
+### map 대신 문자열 replaceAll
+// 181873
