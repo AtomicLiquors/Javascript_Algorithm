@@ -15,6 +15,13 @@ this.id = id.match(/[a-z0-9-_.]/g).join("");
 ### 문자열에서 숫자만 찾기
 // 120850
 
-
 ### $ : 문자열 끝
   - [신규 아이디 추천](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/javascript/regex/2021_KAKAO_BLIND_RECRUIT_LV1.js)
+
+
+### ^ : 문자열 시작
+
+### [^ ] : 부정 집합
+
+### \s : 공백 문자
+// 181868
