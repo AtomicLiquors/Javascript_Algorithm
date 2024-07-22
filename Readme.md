@@ -116,3 +116,5 @@ function solution(age) {
     return age.toString().split('').map((item) => String.fromCharCode(+item + 97)).join('');
 }
 ```
+### 날짜 대소비교
+Date > 181838
