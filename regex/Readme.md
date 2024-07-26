@@ -8,6 +8,12 @@ this.id = id.match("/[a-z0-9-_.]/g").join("");
 this.id = id.match(/[a-z0-9-_.]/g).join("");
 ```
 
+동적 정규 표현식
+```javascript
+myString.match(new RegExp(pat, 'g'))
+```
+
+
 ### null처리에 유의하기
 일치하는 결과가 없으면 빈 배열([])이 아니라 null을 반환하는 점에 주의하라.
 //120864
@@ -25,3 +31,7 @@ this.id = id.match(/[a-z0-9-_.]/g).join("");
 
 ### \s : 공백 문자
 // 181868
+
+### ?= : "Positive Lookahead"
+// 181871
+"문자열 등장 횟수" 찾기 문제에서, ?= 플래그가 없으면 중첩되는 문자열은 건너뛰어 버린다.
