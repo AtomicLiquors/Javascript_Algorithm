@@ -1,8 +1,18 @@
 ### 음수 인덱스 사용하기
 // splice > 181860
 
-### 구조분해 할당으로 배열 항목 switch
+### 구조분해 할당 
+- 배열 항목 switch
 // forEach -> 181924
+
+- 이차원 배열
+https://school.programmers.co.kr/learn/courses/30/lessons/181895
+
+
+### .concat()
+- Spread 연산자로 대체하기
+https://school.programmers.co.kr/learn/courses/30/lessons/181895
+
 
 ### .map()으로 인덱스 사용하기
 // 181875

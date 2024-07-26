@@ -27,7 +27,7 @@ var arr2 = [4,5,6]'
 arr3 = arr1.concat(arr2);
 ```
 
-### reduce method  
+### .reduce()
 https://www.w3schools.com/jsref/jsref_reduce.asp  
 https://miiingo.tistory.com/365  
 배열 항목에 대해 특정 함수를 실행시키는 메서드.   
@@ -45,3 +45,21 @@ const arr2 = [1, 2, 3, 4, 5];
 const result2 = arr2.reduce((acc, cur, idx) => { return acc += cur; }, 10);
 console.log(result2);  // 25
 ```
+
+### .every()
+The every() method of Array instances tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+```javascript
+const isBelowThreshold = (currentValue) => currentValue < 40;
+
+const array1 = [1, 30, 39, 29, 10, 13];
+
+console.log(array1.every(isBelowThreshold));
+// Expected output: true
+```
+https://school.programmers.co.kr/learn/courses/30/lessons/181831/solution_groups?language=javascript
+
+
+### indexOf()
+Array 인스턴스의 indexOf() 메서드는 배열에서 주어진 요소를 찾을 수 있는 첫 번째 인덱스를 반환하고, 찾을 수 없는 경우 -1을 반환합니다.
+두 번째 매개변수는 시작 인덱스입니다.
+https://school.programmers.co.kr/learn/courses/30/lessons/181898/solution_groups?language=javascript
