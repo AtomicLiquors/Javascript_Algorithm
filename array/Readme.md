@@ -13,6 +13,8 @@ https://school.programmers.co.kr/learn/courses/30/lessons/181895
 - Spread 연산자로 대체하기
 https://school.programmers.co.kr/learn/courses/30/lessons/181895
 
+### .reduce()로 두 개 이상의 누산기 사용하기
+// 181928
 
 ### .map()으로 인덱스 사용하기
 // 181875
