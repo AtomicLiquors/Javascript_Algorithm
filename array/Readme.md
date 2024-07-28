@@ -1,5 +1,7 @@
 ### 음수 인덱스 사용하기
+// arr.length - 1
 // splice > 181860
+// .at() : ES2022부터 지원함.
 
 ### 구조분해 할당 
 - 배열 항목 switch
@@ -36,3 +38,11 @@ https://school.programmers.co.kr/learn/courses/30/lessons/181895
 slice와는 달리 새로운 배열을 반환하지 않는다.
 문자열 자르기는 slice만 존재한다.
 // splice > 181860
+
+### sort()
+배열 정렬의 기본은 '사전순 정렬'이다.
+배열 내부의 값이 문자열이 아니라 숫자일 때도 마찬가지다.
+따라서 숫자를 사용할 경우 반드시 다음과 같이 정렬해 준다.
+```javascript
+.sort((a, b) => a - b)
+```
