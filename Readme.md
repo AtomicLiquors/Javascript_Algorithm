@@ -44,7 +44,8 @@ stringifiedNumbers.filter(string => isPrime(+string)).length
 
 - ['0보다 크다'가 조건이면 부등호는 필요하지 않다.](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/Mathematics/programmers_120815.js)
 
-- !! 연산자로 Boolean 변환하기
+- !! 연산자로 Boolean 변환하기  
+
 1번 부정하면 반대 성질을 가진 Boolean이 되고,   
 1번 더 부정하면 일치하는 성질을 가진 Boolean이 된다.
 
@@ -97,7 +98,7 @@ sort는 기본적으로 문자열 정렬이다. // array > sort > 42576
   [[7],[10,0],[18,1,0,null,null,null,null,null,null,null,null,1],[20,8,4,0,null,null,null,null,null,null,null,8,null,null,null,null,null,null,null,null,null,4],[24,13,6,6,0,null,null,null,null,null,null,13,null,null,null,null,null,null,null,null,null,6,null,null,null,null,null,null,null,null,null,6]]
   ```
 ### 정규식
-링크 추가바람
+[링크](https://github.com/AtomicLiquors/Javascript_Algorithm/tree/main/regex#readme)
  
 ### 누적합
 - [2차원 배열의 특정 범위 값 채우기](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/javascript/prefix/2D/Programmers_92344.js)
@@ -110,7 +111,7 @@ sort는 기본적으로 문자열 정렬이다. // array > sort > 42576
 [Map의 대안 + Map의 각종 선언 방식](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/map/Readme.md)
 
 ### 수식 문자열 처리하기
-Mathematics > ParsingExpression
+[Mathematics > ParsingExpression](https://github.com/AtomicLiquors/Javascript_Algorithm/tree/main/Mathematics/Expression)
 
 ### ascii를 String으로
 [확인요망](https://school.programmers.co.kr/learn/courses/30/lessons/120834/solution_groups?language=javascript)
