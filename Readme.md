@@ -44,6 +44,10 @@ stringifiedNumbers.filter(string => isPrime(+string)).length
 
 - ['0보다 크다'가 조건이면 부등호는 필요하지 않다.](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/Mathematics/programmers_120815.js)
 
+- !! 연산자로 Boolean 변환하기
+1번 부정하면 반대 성질을 가진 Boolean이 되고,   
+1번 더 부정하면 일치하는 성질을 가진 Boolean이 된다.
+
 Javascript Math.min은 여러 인수를 가질 수 있다.
 ```javascript
 console.log(Math.min(2, 3, 1));
