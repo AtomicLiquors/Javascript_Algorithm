@@ -63,3 +63,6 @@ https://school.programmers.co.kr/learn/courses/30/lessons/181831/solution_groups
 Array 인스턴스의 indexOf() 메서드는 배열에서 주어진 요소를 찾을 수 있는 첫 번째 인덱스를 반환하고, 찾을 수 없는 경우 -1을 반환합니다.
 두 번째 매개변수는 시작 인덱스입니다.
 https://school.programmers.co.kr/learn/courses/30/lessons/181898/solution_groups?language=javascript
+
+### some()
+조건을 만족하는 원소가 하나라도 있는지 확인한다. 배열 값을 조작하지 않는다.
