@@ -19,7 +19,7 @@ myString.match(new RegExp(pat, 'g'))
 //120864
 
 ### 문자열에서 숫자만 찾기
-// 120850
+[120850](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/regex/programmers_120850.js)
 
 ### $ : 문자열 끝
   - [신규 아이디 추천](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/javascript/regex/2021_KAKAO_BLIND_RECRUIT_LV1.js)
