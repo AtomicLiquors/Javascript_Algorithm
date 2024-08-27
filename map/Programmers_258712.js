@@ -33,6 +33,20 @@ function solution(friends, gifts) {
             }
         }
     }
+    /*
+    이 부분은 차라리 전체를 돌면서 큰 쪽에 대해서만 로직을 수행해 주는 편이 코드가 명료할 수 있다.
+    for(let i=0;i<length;i++){
+       for(let j=0;j<length;j++){
+           if(record[i][j]>record[j][i]){
+               points[i]+=1
+           } else if(record[i][j]===record[j][i]){
+               if(giftPoints[i]>giftPoints[j]){
+                   points[i]+=1
+               }
+           }
+       }
+   } 
+    */
     
     return Math.max(...giftExpectations);
 }
