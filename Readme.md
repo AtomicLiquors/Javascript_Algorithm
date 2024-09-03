@@ -112,6 +112,11 @@ sort는 기본적으로 문자열 정렬이다. // array > sort > 42576
 ### 수식 문자열 처리하기
 [Mathematics > ParsingExpression](https://github.com/AtomicLiquors/Javascript_Algorithm/tree/main/Mathematics/Expression)
 
+### 정수 최대 최솟값
+```javascript
+Number.MAX_SAFE_INTEGER / Number.MIN_SAFE_INTEGER
+```
+
 ### ascii를 String으로
 [확인요망](https://school.programmers.co.kr/learn/courses/30/lessons/120834/solution_groups?language=javascript)
 ```javascript
