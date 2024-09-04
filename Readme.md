@@ -9,12 +9,14 @@ forEach, map, filter, reduce 등등
 
 ```javascript
 const fs = require('fs');
-const inputWithNoEncoding = fs.readFileSync(0).toString().split('\n');
-const inputWithEncoding = fs.readFileSync(0, 'utf8').split('\n');
-const cvtInputToNumber = fs.readFileSync(0, 'utf8').split('\n');
+const inputWithNoEncoding = fs.readFileSync(0).toString().trim().split('\n');
+const inputWithEncoding = fs.readFileSync(0, 'utf8').trim().split('\n');
+const cvtInputToNumber = fs.readFileSync(0, 'utf8').trim().split('\n');
 // ['10', '']와 같은 배열의 형태로 값이 반환되기 때문에 [0]번째 인덱스 값을 가져온다.
 console.log(Number(cvtInputToNumber[0]));
 ```
+.trim()을 해 주지 않으면 공백 한 줄이 입력에 포함되어 버린다.
+(주어진 숫자만큼 slice()해서 사용하는 편이 안전할 수도 있다.)
 
 **숫자 배열로 변환**
 ```javascript
