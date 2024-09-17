@@ -21,3 +21,28 @@
 Q. Math.round를 쓰면 안되나요?  
 A. Math.round는 정수를 반환한다. 자릿수 매개변수를 받지도 않는다.
 - [Math.round 공식 문서](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round)
+
+<br>
+
+
+### 정수 최대 최솟값
+```javascript
+Number.MAX_SAFE_INTEGER / Number.MIN_SAFE_INTEGER
+```
+
+<br>
+
+### Javascript Math.min은 여러 인수를 가질 수 있다.
+  ```javascript
+  console.log(Math.min(2, 3, 1));
+  // Expected output: 1
+  
+  console.log(Math.min(-2, -3, -1));
+  // Expected output: -3
+
+  const array1 = [2, 3, 1];
+
+  console.log(Math.min(...array1));
+  //Expected output: 1
+  
+  ```
