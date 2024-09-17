@@ -1,5 +1,7 @@
-[약수 구하기](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/Mathematics/Divisor/programmers_120897.js)
+### 약수 구하기
+- [링크](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/Mathematics/Divisor/programmers_120897.js)
 
+<br>
 
 ### 숫자를 2진수 <u>문자열</u>로 변환
 ```
