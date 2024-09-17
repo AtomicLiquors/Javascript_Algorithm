@@ -4,6 +4,7 @@ forEach, map, filter, reduce 등등
 프로그래머스 추천 답안은 JS 내장 메서드의 응용 감각을 기르는 것뿐,
 성능이나 유지보수성 면에서 권장할 코드가 아니다.
 
+<br>
 
 ### 입력받기
 
@@ -50,20 +51,6 @@ stringifiedNumbers.filter(string => isPrime(+string)).length
   1번 부정하면 반대 성질을 가진 Boolean이 되고,   
   1번 더 부정하면 일치하는 성질을 가진 Boolean이 된다.
 
-Javascript Math.min은 여러 인수를 가질 수 있다.
-  ```javascript
-  console.log(Math.min(2, 3, 1));
-  // Expected output: 1
-  
-  console.log(Math.min(-2, -3, -1));
-  // Expected output: -3
-
-  const array1 = [2, 3, 1];
-
-  console.log(Math.min(...array1));
-  //Expected output: 1
-  
-  ```
 
 - 값이 0일 경우 다른 값 반환하기 : [[숫자 찾기]](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/string/programmers_120904.js)
 - 값이 0으로 주어질 경우 1 추가하기 : XOR 연산자 활용
@@ -98,8 +85,10 @@ sort는 기본적으로 문자열 정렬이다. // array > sort > 42576
   ```
   [[7],[10,0],[18,1,0,null,null,null,null,null,null,null,null,1],[20,8,4,0,null,null,null,null,null,null,null,8,null,null,null,null,null,null,null,null,null,4],[24,13,6,6,0,null,null,null,null,null,null,13,null,null,null,null,null,null,null,null,null,6,null,null,null,null,null,null,null,null,null,6]]
   ```
-### 정규식
-[링크](https://github.com/AtomicLiquors/Javascript_Algorithm/tree/main/regex#readme)
+### 링크
+- [정규식](https://github.com/AtomicLiquors/Javascript_Algorithm/tree/main/regex#readme)
+- [수식 문자열 처리하기](https://github.com/AtomicLiquors/Javascript_Algorithm/tree/main/Mathematics/Expression)
+
  
 ### 누적합
 - [2차원 배열의 특정 범위 값 채우기](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/javascript/prefix/2D/Programmers_92344.js)
@@ -110,14 +99,6 @@ sort는 기본적으로 문자열 정렬이다. // array > sort > 42576
 
 ### Map
 [Map의 대안 + Map의 각종 선언 방식](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/map/Readme.md)
-
-### 수식 문자열 처리하기
-[Mathematics > ParsingExpression](https://github.com/AtomicLiquors/Javascript_Algorithm/tree/main/Mathematics/Expression)
-
-### 정수 최대 최솟값
-```javascript
-Number.MAX_SAFE_INTEGER / Number.MIN_SAFE_INTEGER
-```
 
 ### ascii를 String으로
 [확인요망](https://school.programmers.co.kr/learn/courses/30/lessons/120834/solution_groups?language=javascript)
