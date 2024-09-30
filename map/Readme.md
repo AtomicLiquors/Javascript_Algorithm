@@ -1,5 +1,5 @@
 ### Map은 객체로 대체 가능하다.
-Map은 ES6 사양해서 등장했다.
+Map은 ES6 사양에서 등장했다.
 ```javascript
 const object = {
     key: value
@@ -39,6 +39,10 @@ terms.forEach(term => {
   mappedTerms[key] = parseInt(value, 10);
 });
 ```
+
+* 주의 : map 선언을 [ ]로 했으면 값 가져오는 것도 [ ]로.
+
+  <br>
 
 
 ### Array.prototype.map()
