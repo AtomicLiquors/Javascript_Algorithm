@@ -1,3 +1,7 @@
+### 정규 표현식 패턴
+Algorithm_Practice 저장소에서 일괄 관리하도록 함.  
+[링크](https://github.com/AtomicLiquors/Algorithm_Practice/blob/main/regex/Pattern.md)
+
 ### .match()
 .match()에 정규식 넣을 때는 쌍따옴표를 쓰지 않는다.
 다른 정규식 
