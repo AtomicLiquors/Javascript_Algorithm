@@ -7,45 +7,9 @@ forEach, map, filter, reduce 등등
 <br>
 
 ### 입력받기
-
-```javascript
-const fs = require('fs');
-const inputWithNoEncoding = fs.readFileSync(0).toString().trim().split('\n');
-const inputWithEncoding = fs.readFileSync(0, 'utf8').trim().split('\n');
-const cvtInputToNumber = fs.readFileSync(0, 'utf8').trim().split('\n');
-// ['10', '']와 같은 배열의 형태로 값이 반환되기 때문에 [0]번째 인덱스 값을 가져온다.
-console.log(Number(cvtInputToNumber[0]));
-```
-.trim()을 해 주지 않으면 공백 한 줄이 입력에 포함되어 버린다.
-(주어진 숫자만큼 slice()해서 사용하는 편이 안전할 수도 있다.)
-
-**숫자 배열로 변환**
-```javascript
-const arr = input[1].split(' ').filter(s => s !== '').map(Number);
-```
-filter를 해 주지 않으면 ''이 배열에 포함되고 숫자 0으로 변환되는 바람에 코너케이스에 걸린다.
-
-[[참고 링크]](https://leehyungi0622.github.io/2021/03/24/202103/210324-algorithm_javascript_input/)
-
-
-**문자열에서 숫자 찾기**  
-정규 표현식 사용
-
-**공백 없는 문자열을 배열로**  
-```
-split('') -> [...]로 대체가능
-```
+[링크](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/input.md)
 
 <br>
-
-### Tip
-- Number()대신 +연산자 사용하기.
-```javascript
-// before
-stringifiedNumbers.filter(string => isPrime(Number(string)).length
-// after
-stringifiedNumbers.filter(string => isPrime(+string)).length
-```
 
 - ['0보다 크다'가 조건이면 부등호는 필요하지 않다.](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/Mathematics/programmers_120815.js)
 
