@@ -103,6 +103,11 @@ function solution(age) {
 }
 ```
 
+<br>
+
+### BigInt를 사용하는 문제 주의
+백준 3079 입국심사
+
 
 <br>
 
