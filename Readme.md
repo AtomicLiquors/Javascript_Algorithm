@@ -46,7 +46,6 @@ sort는 기본적으로 문자열 정렬이다. // array > sort > 42576
 ### 소인수분해
 - [소인수 종류별로 구하기](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/tree/main/hyobin/javascript/prime)
 
-
 <br>
 
 ### 아스키 코드
