@@ -1,4 +1,5 @@
-## 이차원 배열 선언
+## 이차원 배열 선언 : Array.from 사용
+### fill을 체이닝하지 않는다.
 ```javascript
 //[x]
 const acc = new Array(6).fill(new Array(6).fill(0));
@@ -6,12 +7,16 @@ const acc = new Array(6).fill(new Array(6).fill(0));
 const acc = Array.from({ length: 6 }, () => new Array(6).fill(0));
 ```
 
+<br>
+
 Q. 다음과 같이 배열을 선언한 결과는 어떻게 될까?
 ```javascript
 const acc = new Array(6).fill(new Array(6).fill(0));
 acc[3][0] = -5;
 return acc;
 ```
+
+<br>
   
 정답 : 
 ```
