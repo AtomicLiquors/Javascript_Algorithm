@@ -53,6 +53,7 @@ slice와는 달리 새로운 배열을 반환하지 않는다.
 ```
 <br>
 ### 배열의 최댓값
+
 ```javascript
 Math.max(...arr)
 ```
