@@ -7,7 +7,6 @@ JavaScript에서 정규 표현식을 사용하는 방법을 다루는 저장소.
 
 ### .match()
 .match()에 정규식 넣을 때는 쌍따옴표를 쓰지 않는다.
-다른 정규식 
 ```javascript
 // (x) : .match()가 null을 반환한다.
 this.id = id.match("/[a-z0-9-_.]/g").join("");
