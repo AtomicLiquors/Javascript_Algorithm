@@ -12,7 +12,7 @@ console.log(object[key]);
   
 ### 지정된 엔트리로 Map 만들기
 ```javascript
-const morseMap = new Map([
+const map = new Map([
     [key1, value1],
     [key2, value2],
     [key3, value3],
