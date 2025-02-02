@@ -42,6 +42,14 @@ myString.match(new RegExp(pat, 'g'))
 ### \s : 공백 문자
 [Programmers_181868](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/regex/programmers_181868.js)
 
+### \b : 단어
+
 ### ?= : "Positive Lookahead"
 [Programmers_181871](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/regex/Programmers_181871.js)
 "문자열 등장 횟수" 찾기 문제에서, ?= 플래그가 없으면 중첩되는 문자열은 건너뛰어 버린다.
+
+
+### ?! : "Negative lookahead"
+단어 부정.  
+`[^abc]`는 `a`, `b`, `c`가 아닌 모든 것을 선택한다.  
+`\b(?!matches\b)\w+`는 "matches"단어가 아닌 모든 단어를 선택한다.
