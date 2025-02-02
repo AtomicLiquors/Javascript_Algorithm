@@ -21,10 +21,10 @@ const map = new Map([
 
 ### 배열로 Map 만들기
 ```
-const types = ["R", "T", "C", "F", "J", "M", "A", "N"];
+const arr = ["R", "T", "C", "F", "J", "M", "A", "N"];
 const map = new Map();
 
-types.forEach((key) => {
+arr.forEach((key) => {
   map.set(key, 0);
 });
 ```
