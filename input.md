@@ -76,6 +76,6 @@ filter를 해 주지 않으면 ''이 배열에 포함되고 숫자 0으로 변�
 
 <br>
 
-**VSC에서 터미널 입력하면 오류가 뜬다**
-node.js 설정을 위해 launch.json을 만들고,  
+**VSC에서 터미널 입력하면 오류가 뜬다**  
+node.js 설정을 위해 launch.json을 만들고,   
 ```configuration```에 ```"console": "integratedTerminal"```을 추가해 준다.

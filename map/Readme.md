@@ -12,7 +12,7 @@ console.log(object[key]);
   
 ### 지정된 엔트리로 Map 만들기
 ```javascript
-const morseMap = new Map([
+const map = new Map([
     [key1, value1],
     [key2, value2],
     [key3, value3],
@@ -21,10 +21,10 @@ const morseMap = new Map([
 
 ### 배열로 Map 만들기
 ```
-const types = ["R", "T", "C", "F", "J", "M", "A", "N"];
+const arr = ["R", "T", "C", "F", "J", "M", "A", "N"];
 const map = new Map();
 
-types.forEach((key) => {
+arr.forEach((key) => {
   map.set(key, 0);
 });
 ```
@@ -46,7 +46,7 @@ terms.forEach(term => {
 
 
 ### Array.prototype.map()
-이건 배열로부터 Map을 생성하는 게 아니라 콜백함수를 돌려서 새로운 배열을 생성하는 것입니다. 
+이건 자료구조 Map하고 상관없고, 배열을 순회하면서 콜백함수를 돌려서 "새로운 배열"을 생성하는 것입니다. 
 
 ```
 const array1 = [1, 4, 9, 16];
@@ -63,6 +63,7 @@ console.log(map1);
 
 
 ### 객체로 Map 만들기
+Object랑 Map이랑 둘이 기능이 비슷한데 굳이 쓸 일이 있을까?
 ```javascript
 // Step 1: Define the object
 const morse = { 
