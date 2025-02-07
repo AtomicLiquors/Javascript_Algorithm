@@ -33,6 +33,8 @@ value += target ^ 1;
 ### 신택스
 - [올바른 이차원 배열 선언](https://github.com/TPA-ThreeProblemsAday/TPA_CHB/blob/main/hyobin/javascript/array/2D/Declaration.md)
 - 콜백 함수에 세미콜론 넣는 실수.
+- [JavaScript switch는 여러 케이스를 허용하지 않는다](https://github.com/AtomicLiquors/Javascript_Algorithm/blob/main/switch.md#javascript-switch%EB%8A%94-%EC%97%AC%EB%9F%AC-%EC%BC%80%EC%9D%B4%EC%8A%A4%EB%A5%BC-%ED%97%88%EC%9A%A9%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94%EB%8B%A4)
+- 배열 맨 앞에 요소 넣기 : `unshift()`
   
 ### 정렬
 sort는 기본적으로 문자열 정렬이다. // array > sort > 42576
