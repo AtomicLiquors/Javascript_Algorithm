@@ -16,4 +16,3 @@ for(line of input.slice(1)){
 }
 
 console.log(count);
-  

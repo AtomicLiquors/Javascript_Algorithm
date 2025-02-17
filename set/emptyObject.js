@@ -1,10 +1,2 @@
-const set = {};
 
-console.log(
-    set['constructor']
-);
-
-
-console.log(
-    set['__proto__']
-);
+console.log(Object.getOwnPropertyNames(Object.create(null)));
